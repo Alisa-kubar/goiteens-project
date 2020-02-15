@@ -30,6 +30,7 @@ translateX(-17px)
 .direction-list{
     list-style: none;
   display: flex;
+    flex-direction: column;
     margin-top: 38px;
     width: 100%;
 }
