@@ -55,7 +55,7 @@ line-height: 25px;
 color: #222222;
 font-family: "Ubuntu";
 font-weight: 700;
-    }}
+    }
 .about-inner-text{
     margin-top: 28px;
     width: 221px;
@@ -137,15 +137,7 @@ line-height: 25px;
 color: #222222;
 font-family: "Ubuntu";
 font-weight: 700;}
-.about-inner-text{
-width: 221px;
-height: 44px;
-font-size: 16px;
-letter-spacing: 1px;
-line-height: 22px;
-color: black;
-font-family: "Ubuntu";
-font-weight: 400;}
+
 
     
     .direction-header::before{
@@ -207,7 +199,9 @@ margin-top: 15px;
     display: flex;
     border-radius: 10px;
     flex-direction: column;
-    justify-content: center;}}
+    justify-content: center;
+border: 0;
+}}
 
     .direction-header{
 font-size: 33px;
@@ -215,4 +209,7 @@ letter-spacing: 1px;
 line-height: 78px;
 color: #222222;
 font-family: "Open Sans";
-font-weight: 700;}
+font-weight: 700;
+margin-left: 1%;
+
+}
