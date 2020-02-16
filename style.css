@@ -194,9 +194,11 @@ margin-top: 15px;
     list-style: none;
    display: flex;
 flex-direction: row;
-flex-wrap: wrap;
+flex-wrap: nowrap;
     margin-top: 38px;
     width: 100%;}
+    
+    
 .dir-list-item{
 margin-top: 15px;
     background-color: #f9f9f9;
