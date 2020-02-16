@@ -115,13 +115,7 @@ color: white;}
 
 
 
-.direction-header::before{
-    content: url(icon-1.png);
-transform:translateY(4px) 
-translateX(-17px);
-width: 30px;   
- display: inline-block; 
-}
+
 .dir-inner-header{
 font-size: 30px;
 letter-spacing: 1px;
@@ -150,6 +144,15 @@ font-weight: 400;}
     border-radius: 10px;
     flex-direction: column;
     align-items: left;}
+    
+    
+    .direction-header::before{
+    content: url(icon-1.png);
+transform:translateY(4px) 
+translateX(-17px);
+width: 30px;   
+ display: inline-block; 
+}
     
     .direction-header{
 font-size: 33px;
