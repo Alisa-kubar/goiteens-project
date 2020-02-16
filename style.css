@@ -118,7 +118,7 @@ color: white;}
 
 
 
-@media (min-width : 760px) and (max-width : 1200px){
+@media (min-width : 760px){
 .dir-list-item{
   margin-top:0px;
     background-color: #f9f9f9;
