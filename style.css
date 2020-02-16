@@ -125,7 +125,7 @@ color: white;}
     height: 225px;
      width: 49.5%;
     display: flex;
-    border-radius: 10px;
+    border-radius: 8px;
     flex-direction: column;
     align-items: left;}
 
@@ -197,11 +197,11 @@ margin-top: 15px;
     height: 225px;
      width: 25%;
     display: flex;
-    border-radius: 10px;
+    border-radius: 0px;
     flex-direction: column;
     justify-content: center;
 border: 0;
-}}
+}
 
     .direction-header{
 font-size: 33px;
@@ -213,3 +213,18 @@ font-weight: 700;
 margin-left: 1%;
 
 }
+.dir-item-frontend{
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px ;
+    border-right: 0.8px rgb(172, 169, 169) dashed;
+}
+    .dir-item-gamedev{
+    border-right: 0.8px rgb(172, 169, 169) dashed;
+    }
+    .dir-item-smartdesign{
+    border-right: 0.8px rgb(172, 169, 169) dashed;
+    }
+    .dir-item-gostart{
+        border-top-right-radius:5px;
+        border-bottom-right-radius:5px ;
+    }}
